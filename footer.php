@@ -11,11 +11,11 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<footer>
+		<div class="container mx-auto px-4 mt-8">
+			<p class="text-center text-sm py-4">&copy; <?php echo date('Y'); ?> All Rights Reserved - Dunn's Media Service</p>
+		</div>
+	</footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

@@ -140,7 +140,7 @@ add_action( 'widgets_init', 'nicelydunn_widgets_init' );
 
 function nicelydunn_scripts() {
 	wp_enqueue_style( 'nicelydunn-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_enqueue_style( 'tailwind', get_template_directory_uri() . '/assets/css/tailwind.css', array(), '1.0.0');
+	wp_enqueue_style( 'tailwind', get_template_directory_uri() . '/assets/css/tailwind.css', array(), '1.0.2');
 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap', false);
 	wp_style_add_data( 'nicelydunn-style', 'rtl', 'replace' );
 
